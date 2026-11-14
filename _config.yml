@@ -1,0 +1,65 @@
+
+# Site information
+title: "Mikko Koskinen"
+subtitle: "Technology, people & ideas"
+name: "Mikko Koskinen"
+
+description: >-
+  Thoughts, experiments and practical findings
+  from working with AI, agents and the
+  Microsoft ecosystem.
+
+url: "https://mikkokoskinen.github.io"
+baseurl: ""
+
+locale: "en-US"
+timezone: "Europe/Helsinki"
+
+# Jekyll theme
+remote_theme: "mmistakes/minimal-mistakes@4.28.1"
+minimal_mistakes_skin: "default"
+
+# Features
+search: true
+breadcrumbs: false
+
+# Writing
+markdown: kramdown
+permalink: /:year/:month/:title/
+
+# Plugins
+plugins:
+  - jekyll-remote-theme
+  - jekyll-include-cache
+  - jekyll-sitemap
+  - jekyll-feed
+
+# Author information
+author:
+  name: "Mikko Koskinen"
+  bio: "AI & Copilot Lead | Microsoft MVP"
+  location: "Finland"
+  links:
+    - label: "LinkedIn"
+      icon: "fab fa-fw fa-linkedin"
+      url: "https://linkedin.com/in/mkoskinen"
+
+    - label: "GitHub"
+      icon: "fab fa-fw fa-github"
+      url: "https://github.com/MikkoKoskinen"
+
+    - label: "Instagram"
+      icon: "fab fa-fw fa-instagram"
+      url: "https://instagram.com/mikko_koskinen"
+
+# Default article layout
+defaults:
+  - scope:
+      path: ""
+      type: posts
+    values:
+      layout: single
+      author_profile: false
+      read_time: true
+      share: false
+      related: true
